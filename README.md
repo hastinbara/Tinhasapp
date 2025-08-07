@@ -17,7 +17,7 @@ App Android: feito no AppSheet integrado ao WebView do site interno.
 
 Portal Web ADM: acesso e monitoramento via painel em baratinhas.com.br/ADM.
 
-Distribuição: APK disponível em Google Drive, QR code para instalação.
+Distribuição: APK disponível em Google Drive para instalação.
 
 
 
@@ -27,9 +27,9 @@ Distribuição: APK disponível em Google Drive, QR code para instalação.
 
 Android (APK)
 
-1. Escaneie o QR code abaixo ou acesse a pasta do Drive:
+1. Acesse a pasta do Drive:
 
-<!-- Substitua pela URL do QR gerada -->
+<!-- https://github.com/hastinbara/Tinhasapp -->
 
 
 2. Baixe o APK mais recente na Pasta de Instalação.
