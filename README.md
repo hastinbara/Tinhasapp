@@ -1,109 +1,78 @@
-Baratinhas.com.br – App Operacional Interno
-
-  
+# 🪳 Baratinhas.com.br – App Operacional Interno
 
 > Portal de entrada para o sistema operacional interno do Baratinhas.com.br.
 
+---
 
+## 🎯 Visão Geral
 
+Este projeto consiste em um **aplicativo Android** e um **portal web**, desenvolvidos para **uso exclusivo da equipe interna** do Baratinhas.com.br.
+
+- 📱 **App Android**: criado no AppSheet e empacotado com WebView.
+- 💻 **Portal Web ADM**: acesso via [baratinhas.com.br/ADM](https://baratinhas.com.br/ADM)
+- 📦 **Distribuição do APK**: disponível via Google Drive.
 
 ---
 
-🎯 Visão Geral
+## 📱 Instalação e Acesso
 
-Este projeto consiste em um aplicativo Android e um portal web, desenvolvido para uso exclusivo da equipe interna do Baratinhas.com.br. Funcionalidades principais:
+### Android (APK)
 
-App Android: feito no AppSheet integrado ao WebView do site interno.
+1. Acesse a pasta do Drive com os instaladores:
+   👉 [Abrir Pasta de Instalação (Google Drive)](https://drive.google.com/drive/folders/1W5ljF4630OmE-y0)
 
-Portal Web ADM: acesso e monitoramento via painel em baratinhas.com.br/ADM.
+2. Baixe o arquivo `APK` mais recente.
 
-Distribuição: APK disponível em Google Drive para instalação.
-
-
-
----
-
-📱 Instalação e Acesso
-
-Android (APK)
-
-1. Acesse a pasta do Drive:
-
-<!-- https://github.com/hastinbara/Tinhasapp -->
-
-
-2. Baixe o APK mais recente na Pasta de Instalação.
-
-
-3. Permita instalações de fontes externas no seu dispositivo.
-
-
-
-Web (Portal ADM)
-
-Navegue até: baratinhas.com.br/ADM
-
-Login com credenciais corporativas (SSO/LDAP).
-
-
+3. No celular, vá em **Configurações > Segurança** e ative **Fontes desconhecidas** para permitir a instalação.
 
 ---
 
-🏗️ Estrutura do Projeto
+### Web (Portal ADM)
 
-/ (root)
-├── appsheet/               # Configurações e metadados do AppSheet
-├── web/                    # Código do portal ADM (HTML, CSS, JS)
-├── android/                # Gerador e configuração de APK
-│   └── build.gradle        # Config Android
-└── README.md               # Este arquivo
-
+- Acesse: [https://baratinhas.com.br/ADM](https://baratinhas.com.br/ADM)
+- Faça login com suas credenciais corporativas (SSO ou LDAP).
 
 ---
 
-⚙️ Tecnologias e Ferramentas
+## 🏗️ Estrutura do Projeto
 
-AppSheet: construído como PWA para facilitar deploy e manutenção.
-
-Android WebView: container do AppSheet dentro de APK.
-
-HTML5 / CSS3 / JS: portal de administração.
-
-Google Drive: distribuição de APK.
-
-GitHub Actions: CI para validar builds Android.
-
-
+/ ├── appsheet/         # Configurações e metadados do AppSheet ├── web/              # Código do portal ADM (HTML, CSS, JS) ├── android/          # Gerador e configuração do APK │   └── build.gradle └── README.md         # Este arquivo
 
 ---
 
-🛠️ Guia de Desenvolvimento
+## ⚙️ Tecnologias Utilizadas
 
-1. Clonar repositório:
+- **AppSheet** – base do app operacional, formato PWA.
+- **Android WebView** – contêiner nativo para o AppSheet.
+- **HTML5 / CSS3 / JS** – estrutura do portal administrativo.
+- **Google Drive** – hospedagem e distribuição do APK.
+- **GitHub Actions** – integração contínua para builds.
 
+---
+
+## 🛠️ Guia de Desenvolvimento
+
+### 1. Clonar o repositório:
+
+```bash
 git clone https://github.com/hastinbara/Tinhasapp.git
 cd Tinhasapp
 
+2. Configurar o AppSheet:
 
-2. Configurar AppSheet:
+Acesse o editor do AppSheet conectado ao projeto.
 
-Abra o editor AppSheet vinculado a este repositório.
-
-Atualize tabelas e colunas conforme o schema do sistema interno.
-
+Verifique se as tabelas estão atualizadas conforme o schema atual.
 
 
-3. Build Android:
+3. Gerar o APK:
 
 cd android
 ./gradlew assembleRelease
 
+4. Deploy do Portal Web:
 
-4. Deploy Web:
-
-Suba arquivos da pasta web/ no servidor ou serviço de hosting.
-
-
+Envie os arquivos da pasta web/ para o seu servidor ou serviço de hosting.
 
 
 
@@ -111,11 +80,11 @@ Suba arquivos da pasta web/ no servidor ou serviço de hosting.
 
 🚀 Como Contribuir
 
-Abra issues para bugs ou sugestões.
+Abra uma issue para reportar bugs ou sugerir melhorias.
 
-Crie pull requests direcionados à branch develop.
+Faça um pull request para a branch develop.
 
-Siga o guia de estilo definido em .editorconfig.
+Siga o guia de estilo definido no .editorconfig.
 
 
 
@@ -123,18 +92,13 @@ Siga o guia de estilo definido em .editorconfig.
 
 📫 Contato
 
-Para dúvidas ou suporte interno, contate:
+📧 Equipe de TI Baratinhas: ti@baratinhas.com.br
 
-Equipe de TI Baratinhas: ti@baratinhas.com.br
-
-Slack interno: canal #adm-app
+💬 Slack interno: canal #adm-app
 
 
 
 ---
 
-> Made with ❤️ by the Aloj Team
-
-
-
+> Feito com ❤️ pelo time Aloj.
 
