@@ -1,4 +1,4 @@
-[![Download APK](https://img.shields.io/badge/Download-APK-blue)](https://drive.google.com/drive/folders/1W5ljF4630OmE-y0)
+[![Download APK](https://img.shields.io/badge/Download-APK-blue)](https://drive.google.com/drive/folders/1W5ljF4630OmE-y0rmSBOP-Gp64h9W4At)
 [![Site Oficial](https://img.shields.io/badge/Visite-Baratinhas.com.br-red)](Baratinhas.com.br/adm)
 
 # 🪳 Baratinhas.com.br – App Operacional Interno
